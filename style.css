@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+td {
+    border: solid;
+    padding: 4px;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
