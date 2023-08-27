@@ -1,5 +1,6 @@
 // This line stores a REFERENCE to the element with id "topDisplay"
 const topDisplay = document.getElementById("topDisplay");
+
 // This line gets all elements that are "button" elements and stores them as a NodeList
 const buttons = document.querySelectorAll("button");
 
