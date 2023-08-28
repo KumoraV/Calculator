@@ -1,18 +1,39 @@
 body{
+    justify-content: center;
+    align-items: center;
     background-color: tomato;
+    height: 100vh;
+    margin: 0;
 }
 h1 {
     text-align: center;
     font-size: 50px;
 }
+.calcContainer{
+    display: flex;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+}
+.calc{
+    padding: 0;
+    margin: 5px;
+    border: 10px groove green;
+}
+/* The width is what caused the space between border and calculator. */
 table{
-    background-color: gray;
-    width: 60%;
+    background-color: red;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
     margin-left: auto;
     margin-right: auto;
     table-layout: fixed;
 }
-td.display{
+.display{
     text-align: right;
     height: 50px;
     background-color: rgb(211, 215, 215);
@@ -20,7 +41,7 @@ td.display{
 td {
     border: solid;
     padding: 4px;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     vertical-align: middle;
 }
